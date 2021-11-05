@@ -1,0 +1,18 @@
+.centralizar_menu {
+    width: 100%;
+}
+
+.primeiro_menu ul {
+    align-items: stretch;
+    display: flex;
+    list-style: none;
+
+}
+
+.primeiro_menu ul li {
+    padding: 20px;
+}
+
+.primeiro_end {
+    padding: 40%;
+}
