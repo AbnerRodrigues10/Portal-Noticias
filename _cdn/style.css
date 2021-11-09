@@ -51,6 +51,8 @@
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
+    text-decoration: none;
+    color: black;
 }
 
 .primeiro_menu_left_menu {
@@ -64,21 +66,13 @@
     border-left: 1px solid #ebedef;
 
 }
-
-.seta_baixo {
-    position: absolute;
-    padding: 4.5px;
-    box-shadow: 1.5px -1.5px 0 0.9px #c0bbbb inset;
-    border: solid transparent;
-    border-width: 45px 130px 0px 185px;
-    transform: rotate(315deg);
-    height: 50px;
-
+.primeiro_menu_left_email_img{
+    width: 15px;
+    padding-top: 22px;
+    margin-left: 5px;
 }
 
-.seta_baixo:hover{
-    box-shadow: 1.5px -1.5px 0 0.9px #D36833 inset;
-}
+
 .primeiro_menu_center {
     width: 34%;
     background-image: linear-gradient(to right, #0098da, #3dbcea, #d2e1f3);
@@ -119,3 +113,4 @@
 }
 
 /*iniciando segunda dobra menu*/
+
