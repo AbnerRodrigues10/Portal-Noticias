@@ -443,3 +443,33 @@
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="green" cx="7" cy="7" r="2"/></svg>');
     width: calc(var(--tam_coluna_right) + 10px);
 }
+
+/*1024px*/
+@media (max-width: 65em) {
+    .noticia_principal{
+        width: 60%;
+    }
+    .coluna_right{
+        width: 40%;
+    }
+    .coluna_right_2 {
+        display: none;
+    }
+    .coluna_right_1{
+        width: 100%;
+    }
+}
+
+/*940px*/
+@media (max-width: 60em) {
+    .noticia_principal{
+        width: 100%;
+    }
+    .coluna_right{
+        display: none;
+    }
+.primeiro_menu_right_noticia{
+    display: none;
+}
+
+}
