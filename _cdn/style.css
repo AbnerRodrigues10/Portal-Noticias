@@ -473,17 +473,10 @@
         width: 100%;
     }
 
-    .coluna_right {
+    .primeiro_menu_right_noticia, .coluna_right, .segundo_menu_content {
         display: none;
     }
 
-    .primeiro_menu_right_noticia {
-        display: none;
-    }
-
-    .segundo_menu_content {
-        display: none;
-    }
 
     .segundo_menu_content_2 {
         display: flex;
@@ -515,9 +508,14 @@
     }
 }
 
-@media (max-width: 44em) {
-    .primeiro_menu_right{
+@media (max-width: 42.5em) {
+    .primeiro_menu_left_email {
         display: none;
     }
 }
+@media (max-width: 38.87em) {
+    .primeiro_menu_right_busca {
+        display: none;
+    }
 
+}
